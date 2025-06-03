@@ -28,6 +28,7 @@ interface NavItem {
   sectionId: string;
 }
 
+
 const DockSidebar = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isMobile, setIsMobile] = useState(false);
